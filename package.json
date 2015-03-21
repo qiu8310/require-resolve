@@ -21,7 +21,9 @@
     "node",
     "module"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "x-path": "^0.0.2"
+  },
   "devDependencies": {
     "coveralls": "^2.11.1",
     "grunt": "^0.4.5",
