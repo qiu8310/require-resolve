@@ -3,6 +3,7 @@ env: CI=true
 sudo: false
 node_js:
   - '0.10'
+  - '0.12'
 after_script:
   - npm run coveralls
 notifications:
