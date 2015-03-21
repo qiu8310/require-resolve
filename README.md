@@ -14,6 +14,9 @@ $ npm install --save require-resolve
 
 ## Usage
 
+Return `null` if nothing found, otherwise return an object, include `src` and `pkg`, `pkg` is optional.
+
+
 ```javascript
 var requireResolve = require('../'),
   path = require('path');
@@ -43,6 +46,7 @@ console.log(requireResolve('./example/simple.js', path.dirname(path.dirname(__fi
 console.log(requireResolve('glup', __filename));
 console.log(requireResolve('glup/taskTree', __filename));
 ```
+
 
 
 ## Contributing
